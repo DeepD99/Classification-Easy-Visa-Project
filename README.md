@@ -15,17 +15,24 @@ The goal of this project is to build a classification model that predicts whethe
 
 ---
 
-## 📁 Dataset Overview
+## 📄 Data Description
 
-The dataset includes features such as:
+Below is a brief description of each column in the dataset:
 
-- `case_status` (target): 1 for Approved, 0 for Denied  
-- `employer_name`: Name of the employer  
-- `job_title`: Title of the job role  
-- `education_level`, `salary`, `full_time_position`  
-- `state`, `country_of_citizenship`, etc.
-
-*Note: You can find the dataset used in the project root.*
+| Column Name              | Description                                                              |
+|--------------------------|--------------------------------------------------------------------------|
+| `case_status`            | **Target variable** – 1 if visa was approved, 0 if denied                |
+| `employer_name`          | Name of the employer submitting the visa application                    |
+| `job_title`              | Title of the position offered to the employee                            |
+| `education_level`        | Educational qualification of the applicant                               |
+| `salary`                 | Offered salary for the position                                          |
+| `full_time_position`     | Indicates if the position is full-time (`Yes` or `No`)                   |
+| `job_experience`         | Number of years of relevant job experience                               |
+| `state`                  | U.S. state where the job is located                                      |
+| `country_of_citizenship` | Country of the applicant’s citizenship                                   |
+| `application_year`       | Year in which the visa application was filed                             |
+| `job_category`           | Industry or field of the job (e.g., Tech, Finance, Healthcare)           |
+| `sponsorship_required`   | Whether visa sponsorship was required for the role (`Yes` or `No`)       |
 
 ---
 
