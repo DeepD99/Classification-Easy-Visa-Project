@@ -78,19 +78,3 @@ This model can help in pre-screening visa applications and flagging high-risk pr
 - Jupyter Notebook
 
 ---
-
-## 📂 Project Contents
-
-| File Name                           | Description                              |
-|------------------------------------|------------------------------------------|
-| `EasyVisa_Full_Code_Notebook.ipynb` | Complete implementation notebook          |
-| `EasyVisa_Dataset.csv`             | Dataset used for training & testing       |
-| `EasyVisa_Project_Summary.pdf`     | Presentation-ready summary (optional)     |
-| `README.md`                        | Project overview and documentation        |
-
----
-
-## ✨ Author
-
-Adam Smith  
-*PGP AI/ML Candidate | Data Science Enthusiast*
